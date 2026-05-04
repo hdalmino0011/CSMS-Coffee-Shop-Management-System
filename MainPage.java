@@ -15,7 +15,7 @@ public class MainPage extends JFrame {
         setResizable(true);
 
         // Use the custom BackgroundPanel for auto-resizing background
-        BackgroundPanel background = new BackgroundPanel("C:\\Users\\Laptop Supplier PH\\Documents\\NetBeansProjects\\Cashier\\src\\coffeeshop\\nbg4.jpg");
+        BackgroundPanel background = new BackgroundPanel("nbg4.jpg");
         background.setLayout(new BorderLayout());
 
         // ── NAVBAR (Dark Brown - matching inventory and cashier colors) ──
